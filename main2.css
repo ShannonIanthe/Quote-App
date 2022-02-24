@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Oswald&family=Shizuru&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background: rgb(10, 108, 221);
+}
+
+/* Global */
+a{
+    text-decoration: none;
+    color: rgb(255, 241, 134);
+    cursor: pointer;
+}
+
+
+/* Heard at Work */
+.main-2 {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 241, 134);
+    background: rgb(10, 108, 221);
+    height: 80vh;
+    padding: 5rem 5rem;
+    justify-content: space-between;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    gap: 1.3rem;
+}
+
+.contact,
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    font-size: 6vw;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    font-family: 'Oswald', sans-serif;;
+    font-size: 15px; 
+    text-align: center;
+}
+
+.x-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    color: white;
+    background-color: aliceblue;
+}
+
+img {
+    height: 3rem;
+    transition: 200ms;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.shannon {
+    color: rgb(255, 163, 244);
+}
