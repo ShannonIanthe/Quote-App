@@ -41,9 +41,9 @@ a{
     align-items: center;
     justify-content: center;
     font-family: 'Oswald', sans-serif;;
-    font-size: 2.5rem;
+    font-size: clamp(.5rem, 2.5vw, 2rem);
     text-align: center;
-    padding: 1rem 1rem;
+    padding: 3.3rem 1rem;
     font-size: 6vw;
 }
 
@@ -56,6 +56,7 @@ h5 {
     font-family: 'Oswald', sans-serif;;
     font-size: 15px; 
     text-align: center;
+    padding-bottom: .8rem;
 }
 
 .x-icon {
