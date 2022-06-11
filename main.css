@@ -37,10 +37,11 @@ main {
 .nav-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 1rem;
     align-items: center;
-    font-size: 2rem;
-    font-weight: 40;
+    font-size: 4vh;
+    font-weight: 50;
     font-family: 'Gochi Hand', cursive;
 }
 
@@ -52,7 +53,7 @@ main {
     font-family: 'Gochi Hand', cursive;
     text-align: center;
     padding: 3.3rem 1rem;
-    font-size: 10vw;
+    font-size: 12vw;
     font-weight: 50;
 }
 
