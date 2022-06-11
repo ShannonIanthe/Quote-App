@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Oswald&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: 0;
-    background: rgb(10, 108, 221);
+    background-color: rgb(238, 92, 72);
 }
 
 /* Global */
@@ -18,9 +20,9 @@ a{
 .main-2 {
     display: flex;
     flex-direction: column;
-    color: rgb(255, 241, 134);
-    background: rgb(10, 108, 221);
-    height: 80vh;
+    color: #fff;
+    background: rgb(238, 92, 72);
+    height: 70vh;
     padding: 5rem 5rem;
     justify-content: space-between;
 }
@@ -32,7 +34,12 @@ a{
     align-items: center;
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
-    gap: 1.3rem;
+    gap: 2rem;
+    color: rgb(31, 124, 230);
+}
+
+.nav-container a{
+    color: rgb(31, 124, 230);
 }
 
 .contact,
@@ -40,11 +47,13 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Oswald', sans-serif;;
+    font-family: 'Luckiest Guy', cursive;
     font-size: clamp(.5rem, 2.5vw, 2rem);
     text-align: center;
-    padding: 3.3rem 1rem;
+    padding-top: 5rem;
     font-size: 6vw;
+    font-weight: 30;
+    -webkit-text-stroke: 3px rgb(31, 124, 230);
 }
 
 .contact {
@@ -57,6 +66,7 @@ h5 {
     font-size: 15px; 
     text-align: center;
     padding-bottom: .8rem;
+    color: rgb(31, 124, 230);
 }
 
 .x-icon {
@@ -79,6 +89,27 @@ img:hover {
     transform: scale(1.2);
 }
 
-.shannon {
-    color: rgb(255, 163, 244);
+a:hover {
+    color: white;
 }
+
+.emphasis {
+    color: rgb(255, 241, 134);
+    transition: 0.6s;
+}
+
+.shan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 40;
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    .main-2 {
+      height: fit-content;
+    }
+  }
