@@ -1,122 +1,130 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Oswald&family=Shizuru&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Oswald&family=Shizuru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    background-color: rgb(238, 92, 72);
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  background-color: rgb(238, 92, 72);
 }
 
 /* Global */
-a{
-    text-decoration: none;
-    color: rgb(255, 241, 134);
-    cursor: pointer;
+a {
+  text-decoration: none;
+  color: rgb(255, 241, 134);
+  cursor: pointer;
 }
-
 
 /* Heard at Work */
 .main-2 {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    background: rgb(238, 92, 72);
-    height: 70vh;
-    padding: 5rem 5rem;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  background: rgb(238, 92, 72);
+  height: 70vh;
+  padding: 5rem 5rem;
+  justify-content: space-between;
 }
 
 .nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    align-items: center;
-    font-size: 4vh;
-    font-weight: 50;
-    font-family: 'Gochi Hand', cursive;
-    color: rgb(31, 124, 230);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  align-items: center;
+  font-weight: 50;
+  font-family: "Gochi Hand", cursive;
+  color: rgb(31, 124, 230);
 }
 
-.nav-container a{
-    color: rgb(31, 124, 230);
+.nav-container a {
+  color: rgb(31, 124, 230);
 }
 
 .contact,
 .about {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Gochi Hand', cursive;
-    text-align: center;
-    padding-top: 5rem;
-    font-size: 5vw;
-    font-weight: 30;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gochi Hand", cursive;
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 7.1vw;
+  font-weight: 30;
 }
 
 h5 {
-    font-family: 'Gochi Hand', cursive;
-    font-size: 3vh; 
-    font-weight: 40;
-    text-align: center;
-    padding-bottom: .8rem;
-    padding-top: 2rem;
-    color: rgb(31, 124, 230);
-    transition: 0.6s;
+  font-family: "Gochi Hand", cursive;
+  font-size: 3vh;
+  font-weight: 40;
+  text-align: center;
+  padding-bottom: 0.8rem;
+  padding-top: 2rem;
+  color: rgb(31, 124, 230);
+  transition: 0.6s;
 }
 
 .x-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon {
-    color: white;
-    background-color: aliceblue;
+  color: white;
+  background-color: aliceblue;
 }
 
 img {
-    height: 3rem;
-    transition: 200ms;
+  height: 3rem;
+  transition: 200ms;
 }
 
 img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 a:hover {
-    color: rgb(255, 241, 134);
-    transition: 0.6s;
+  color: rgb(255, 241, 134);
+  transition: 0.6s;
 }
 
 .emphasis {
-    color: rgb(255, 241, 134);
-    transition: 0.6s;
+  color: rgb(255, 241, 134);
+  transition: 0.6s;
 }
 
-
 .shan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 40;
+  font-size: 3vh;
+  padding-bottom: 2rem;
+  font-family: "Gochi Hand", cursive;
+  transition: 0.6s;
+}
+
+.shan:hover a {
+  color: rgb(31, 124, 230);
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px),
+  (min-width: 1100px) {
+  .main-2 {
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 40;
-    font-size: 3vh;
-    padding-bottom: 2rem;
-    font-family: 'Gochi Hand', cursive;
-    transition: .6s;
-}
-
-.shan:hover a{
-    color: rgb(31, 124, 230);
-}
-
-@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
-    .main-2 {
-      height: fit-content;
-    }
+    font-size: 3.5vh;
+    gap: 1.5rem;
   }
+}
