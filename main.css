@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display&family=Oswald&family=Shizuru&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 
 * {
     margin: 0;
@@ -38,8 +40,9 @@ main {
     justify-content: space-around;
     align-items: center;
     font-size: 2rem;
-    font-family: 'Oswald', sans-serif;
-    gap: 1rem;
+    font-weight: 40;
+    gap: 2rem;
+    font-family: 'Gochi Hand', cursive;
 }
 
 .toma,
@@ -47,13 +50,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Luckiest Guy', cursive;
-    font-size: clamp(5rem, 2.5vw, 7rem);
+    font-family: 'Gochi Hand', cursive;
     text-align: center;
     padding: 3.3rem 1rem;
-    font-size: 6vw;
+    font-size: 10vw;
     font-weight: 50;
-    -webkit-text-stroke: 3px rgb(238, 92, 72);
 }
 
 .text {
@@ -76,7 +77,7 @@ button {
     border-radius: 8px;
     border: none;
     background: rgb(238, 92, 72);
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Gochi Hand', cursive;
     font-size: 1rem;
     line-height: 15px;
     cursor: pointer;
