@@ -36,7 +36,8 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  font-size: 5vh;
+  gap: 10rem;
   align-items: center;
   font-weight: 50;
   font-family: "Gochi Hand", cursive;
